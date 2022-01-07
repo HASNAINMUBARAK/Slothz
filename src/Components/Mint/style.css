@@ -1,0 +1,135 @@
+.mint {
+  --tw-text-opacity: 1;
+  color: rgba(251, 215, 37, var(--tw-text-opacity));
+}
+.second {
+  display: flex;
+}
+.imgee {
+  /* margin-top: 100px; */
+  width: 430px;
+  height: 400px;
+}
+.left {
+  box-shadow: 2px 2px 4px orchid;
+  text-align: center;
+  margin: 80px;
+  opacity: 1;
+  text-shadow: 1px 2px 15px hsl(0deg 0% 100% / 60%);
+  color: hsla(0, 0%, 100%, 0.9) !important;
+  border: 3px solid orchid;
+  min-height: 1px;
+  padding: 1.25rem;
+}
+.right {
+  margin: 80px 0px 80px 0px;
+}
+.heading {
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+}
+.p1 {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+.count {
+  margin: 10px;
+  height: 40px;
+}
+input {
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 26px;
+  color: orchid;
+  margin-bottom: 10px;
+  text-align: center;
+  width: 100px;
+  height: 40px;
+}
+.btn1 {
+  height: 40px;
+  width: 25px;
+  margin-top: 10px;
+  font-size: 26px;
+  color: orchid;
+  margin-bottom: 10px;
+  text-align: center;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+.btn2 {
+  height: 40px;
+  width: 25px;
+  margin-top: 10px;
+  font-size: 26px;
+  color: orchid;
+  margin-bottom: 10px;
+  text-align: center;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.wallet {
+  width: 150px;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  height: 40px;
+  padding-left: 12px;
+  padding-right: 12px;
+  cursor: pointer;
+  font-weight: 500;
+  text-shadow: 0 0 7px rgb(218 112 214 / 50%);
+  border-radius: 30px;
+  box-shadow: 2px 2px 4px orchid;
+  text-align: center;
+  background-color: black;
+  color: orchid;
+  opacity: 1;
+  text-shadow: 1px 2px 15px hsl(0deg 0% 100% / 60%);
+  border: 3px solid orchid;
+}
+.p3 {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  text-shadow: 1px 2px 15px hsl(0deg 0% 100% / 60%);
+  color: hsla(0, 0%, 100%, 0.9) !important;
+}
+.card {
+  background-color: #331f32;
+  margin: 10px;
+  width: 150px;
+  border-radius: 5px;
+}
+h4 {
+  --tw-text-opacity: 1;
+  color: rgba(251, 215, 37, var(--tw-text-opacity));
+}
+.fifth {
+  text-align: center;
+  background-color: #2d2c2c;
+}
+.random {
+  padding: 20px;
+}
+.fifth {
+  box-shadow: 0 2px 15px hsl(0deg 0% 100% / 18%);
+}
+@media (max-width: 700px) {
+  .second {
+    display: flex;
+    flex-direction: column;
+  }
+  .left {
+    margin: 20px;
+  }
+  .imgee {
+    width: 250px;
+    height: 150px;
+  }
+  .third {
+    text-align: center;
+  }
+  .MuiGrid-grid-xs-12 {
+    display: flex;
+    justify-content: center;
+  }
+}

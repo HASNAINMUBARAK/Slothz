@@ -1,0 +1,25 @@
+.z {
+  background-color: rgb(44, 43, 43);
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0 2px 15px hsl(0deg 0% 100% / 18%);
+}
+.a {
+  margin: 40px;
+}
+.b {
+  margin: 40px;
+}
+.fa-twitter-square {
+  font-size: xx-large;
+  padding-right: 4px;
+}
+.fa-discord {
+  font-size: xx-large;
+}
+@media (max-width: 600px) {
+  .z {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,58 @@
+.level {
+  background-color: rgb(37, 35, 35);
+  text-align: center;
+  box-shadow: 0 2px 15px hsl(0deg 0% 100% / 18%);
+}
+.join {
+  margin: 20px;
+  width: 120px;
+  height: 30px;
+  border-radius: 5px;
+  border: 2px solid white;
+  background-color: rgb(37, 35, 35);
+}
+.level1 {
+  text-align: center;
+}
+.teamheading {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 20px;
+  --tw-text-opacity: 1;
+  color: rgba(251, 215, 37, var(--tw-text-opacity));
+}
+.teampara {
+  text-align: center;
+  padding: 20px;
+  --tw-text-opacity: 1;
+  letter-spacing: 1px;
+  font-size: 1.25rem;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+.twitter {
+  display: flex;
+}
+.twt {
+  /* display: none; */
+  width: 100%;
+}
+.twt:hover {
+  display: block;
+  cursor: pointer;
+}
+
+.card {
+  background-color: #331f32;
+  margin: 20px;
+  width: 150px;
+  border-radius: 5px;
+}
+.carddd {
+  display: flex;
+}
+@media (max-width: 600px) {
+  .carddd {
+    display: flex;
+    flex-direction: column;
+  }
+}

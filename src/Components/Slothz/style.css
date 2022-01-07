@@ -1,0 +1,81 @@
+.outter {
+  margin-top: 2.7em;
+}
+.first {
+  text-align: center;
+  margin: 80px;
+}
+.name {
+  margin: 0;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 72px;
+  color: #fff;
+  text-shadow: 3px 3px 4px #891f85;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+.second {
+  text-align: center;
+}
+.imge {
+  width: 150px;
+  color: #891f85;
+  border-radius: 0.25rem !important;
+  border: 1px solid orchid !important;
+  box-shadow: 0 0 15px rgb(216 98 212 / 53%);
+  margin-bottom: 20px;
+}
+.third {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.btn {
+  transition: 0.5s;
+  margin: 80px;
+  font-size: 25px;
+  color: #fff;
+  background-color: #461944;
+  text-shadow: 3px 3px 4px #891f85;
+  box-shadow: 1px 3px 15px hsl(0deg 0% 100% / 28%);
+  padding: 14px 50px;
+  border-radius: 50px;
+  border: 3px solid orchid;
+  transition: 0.5s;
+}
+.yell {
+  font-weight: 700;
+  margin: 30px !important;
+  text-align: center;
+  color: #fbd725;
+  text-shadow: 0 0 7px #fbd725;
+  font-size: 48px;
+  line-height: 48px;
+}
+.yel {
+  text-align: center;
+}
+.forth {
+  background-color: #252424;
+  box-shadow: 0 2px 15px hsl(0deg 0% 100% / 18%);
+}
+
+@media (max-width: 600px) {
+  .name {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .first {
+    margin: 30px;
+  }
+  img {
+    width: 250px;
+  }
+  .btn {
+    font-size: 21px;
+  }
+  .yel {
+    font-size: 1.1em;
+  }
+}

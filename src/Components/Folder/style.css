@@ -1,0 +1,138 @@
+.cover {
+  display: flex;
+}
+.dot {
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  background-color: yellow;
+  margin-left: -9px;
+}
+.dot1 {
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  background-color: yellow;
+  margin: 10px 0px 0px -9px;
+}
+
+.one {
+  width: 50%;
+}
+
+.two {
+  width: 50%;
+  border-left: 3px solid white;
+}
+.four {
+  border-left: 3px solid white;
+}
+.upperR {
+  display: flex;
+  align-items: center;
+}
+.upper1 {
+  margin-left: 10px;
+  border-radius: 2px;
+  background-color: #fff;
+  height: 20px;
+  width: 20px;
+}
+.upper2 {
+  background-color: orchid;
+  /* width: 35px; */
+  color: #fff;
+  padding: 5px 10px;
+  border: 1px solid #fff;
+  box-shadow: 1px 3px 15px rgb(255 255 255 / 28%);
+  text-align: center;
+  outline: none;
+}
+/* gdfgdfgdfg */
+.lower {
+  letter-spacing: 1px;
+  width: 350px;
+  margin: 30px 0px 30px 40px;
+  padding: 20px;
+  border-radius: 5px;
+  padding: 10px;
+  overflow: hidden;
+  background-image: linear-gradient(100deg, #1e1f25, #1e1f25, #1e1f25);
+  box-shadow: 0 0 1px rgb(0 0 0 / 20%);
+  border: 1px solid #891f85;
+}
+.three {
+  /* border-right: 3px solid white; */
+  float: right;
+}
+.upperL {
+  display: flex;
+  justify-content: end;
+  margin-right: 15px;
+  align-items: center;
+}
+.upper3 {
+  margin-left: 10px;
+  border-radius: 2px;
+  background-color: #fff;
+  height: 20px;
+  width: 20px;
+}
+.upper4 {
+  background-color: orchid;
+  /* width: 35px; */
+  color: #fff;
+  padding: 5px 10px;
+  border: 1px solid #fff;
+  box-shadow: 1px 3px 15px rgb(255 255 255 / 28%);
+  text-align: center;
+  outline: none;
+}
+.lowerL {
+  float: right;
+  letter-spacing: 1px;
+  width: 350px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  padding: 10px;
+  overflow: hidden;
+  background-image: linear-gradient(100deg, #1e1f25, #1e1f25, #1e1f25);
+  box-shadow: 0 0 1px rgb(0 0 0 / 20%);
+  border: 1px solid #891f85;
+}
+/* mobile version */
+@media (max-width: 600px) {
+  .cover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .upperL {
+    display: none;
+  }
+  .upperR {
+    display: none;
+  }
+  .lower {
+    margin: 0px;
+    width: 100%;
+  }
+  .lowerL {
+    width: 90%;
+  }
+  .two {
+    border-left-style: none;
+  }
+  .dot {
+    display: none;
+  }
+  .dot1 {
+    display: none;
+  }
+  .pone {
+    width: 90%;
+    text-align: center;
+  }
+}
