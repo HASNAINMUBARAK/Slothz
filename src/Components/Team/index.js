@@ -6,8 +6,10 @@ const Team = () => {
     <>
       <div className="outter">
         <div className="level">
-          <h2 style={{ padding: "35px 0px 10px 0px" }}>Join our Discord Community</h2>
-          <p style={{padding:'10px'}}>
+          <h2 style={{ padding: "35px 0px 10px 0px" }}>
+            Join our Discord Community
+          </h2>
+          <p style={{ padding: "10px" }}>
             The best community in this space with +2,000 members, with games,
             contests, giveaways, scholarships and more to some!
           </p>
@@ -26,27 +28,42 @@ const Team = () => {
           <Grid Container className="twitter">
             <Grid item md={4} sm={4} xs={4}>
               <button className="twt">
-                <a href="#"></a>
+                <i
+                  class="fab fa-twitter"
+                  style={{ color: "#3d8ceb", fontSize: "30px" }}
+                ></i>
               </button>
             </Grid>
             <Grid item md={4} sm={4} xs={4}>
               <button className="twt">
-                <a href="#"></a>
+                <i
+                  class="fab fa-facebook-f"
+                  style={{ color: "#4e54f2", fontSize: "30px" }}
+                ></i>
               </button>
             </Grid>
             <Grid item md={4} sm={4} xs={4}>
               <button className="twt">
-                <a href="#"></a>
+                <i
+                  class="fab fa-instagram"
+                  style={{ color: "#e651ff", fontSize: "30px" }}
+                ></i>
               </button>
             </Grid>
             <Grid item md={4} sm={4} xs={4}>
               <button className="twt">
-                <a href="#"></a>
+                <i
+                  class="fab fa-facebook-messenger"
+                  style={{ color: "#4e54f2", fontSize: "30px" }}
+                ></i>
               </button>
             </Grid>
             <Grid item md={4} sm={4} xs={4}>
               <button className="twt">
-                <a href="#"></a>
+                <i
+                  class="fab fa-whatsapp"
+                  style={{ color: "#40ee5c", fontSize: "30px" }}
+                ></i>
               </button>
             </Grid>
           </Grid>

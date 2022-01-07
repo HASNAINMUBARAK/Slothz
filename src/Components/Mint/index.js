@@ -22,7 +22,7 @@ const Mint = () => {
         </div>
         <div className="second">
           <div className="left">
-            <h2 className="heading">Mint your SLOTHz!</h2>
+            <h2 className="headingg">Mint your SLOTHz!</h2>
             <p className="p1">
               You can mint up to 20 SLOTHz at once. The price per SLOTHz is
               0.045 ETH.
