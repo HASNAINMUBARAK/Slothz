@@ -14,6 +14,7 @@
   box-shadow: 2px 2px 4px orchid;
   text-align: center;
   margin: 80px;
+  width: 500px;
   opacity: 1;
   text-shadow: 1px 2px 15px hsl(0deg 0% 100% / 60%);
   color: hsla(0, 0%, 100%, 0.9) !important;
@@ -116,10 +117,12 @@ h4 {
 @media (max-width: 700px) {
   .second {
     display: flex;
+    align-items: center;
     flex-direction: column;
   }
   .left {
     margin: 20px;
+    width: 330px;
   }
   .imgee {
     width: 250px;
