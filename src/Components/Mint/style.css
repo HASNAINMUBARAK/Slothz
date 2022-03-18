@@ -118,10 +118,12 @@ h4 {
 @media (max-width: 700px) {
   .second {
     display: flex;
+    align-items: center;
     flex-direction: column;
   }
   .left {
     margin: 20px;
+    width: 330px;
   }
   .imgee {
     width: 250px;

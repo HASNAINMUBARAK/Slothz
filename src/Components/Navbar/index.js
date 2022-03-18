@@ -50,7 +50,7 @@ const Navbar = () => {
         <Grid item xs={4}>
           <div className="hamburger-menu">
             <a href="# " onClick={() => setShowIcons(!showIcons)}>
-              <MenuRoundedIcon />
+              <MenuRoundedIcon  />
             </a>
           </div>
         </Grid>
