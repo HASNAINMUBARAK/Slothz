@@ -1,6 +1,11 @@
 import React from "react";
 import "./style.css";
 import Grid from "@material-ui/core/Grid";
+import g1 from "../../Assets/Images/g1.gif"
+import g2 from "../../Assets/Images/g2.gif"
+import g3 from "../../Assets/Images/g3.gif"
+import g4 from "../../Assets/Images/g4.gif"
+
 const Team = () => {
   return (
     <>
@@ -70,41 +75,41 @@ const Team = () => {
         </div>
         <div className="level3">
           <Grid Container className="carddd">
-            <Grid item md={3} sm={3} xs={12} className="cardd">
+            <Grid item md={3} sm={3} xs={12} className="cardd"  style={{display:"flex" , justifyContent:"center"}}>
               <div className="card">
                 <img
                   className="imge"
-                  src="http://nigeria.alshumaal.com/static/media/hero1.a13e15c7.gif"
+                  src={g1}
                   alt=" "
                 />
                 <h4>@Mike Dene</h4>
               </div>
             </Grid>
-            <Grid item md={3} sm={3} xs={12}>
+            <Grid item md={3} sm={3} xs={12}  style={{display:"flex" , justifyContent:"center"}}>
               <div className="card">
                 <img
                   className="imge"
-                  src="http://nigeria.alshumaal.com/static/media/hero4.dc80de94.gif"
+                  src={g2}
                   alt=" "
                 />
                 <h4>@Mike Dene</h4>
               </div>
             </Grid>
-            <Grid item md={3} sm={3} xs={12}>
+            <Grid item md={3} sm={3} xs={12}  style={{display:"flex" , justifyContent:"center"}}>
               <div className="card">
                 <img
                   className="imge"
-                  src="http://nigeria.alshumaal.com/static/media/hero2.dd351f01.gif"
+                  src={g3}
                   alt=" "
                 />
                 <h4>@Mike Dene</h4>
               </div>
             </Grid>
-            <Grid item md={3} sm={3} xs={12}>
+            <Grid item md={3} sm={3} xs={12}  style={{display:"flex" , justifyContent:"center"}}>
               <div className="card">
                 <img
                   className="imge"
-                  src="http://nigeria.alshumaal.com/static/media/hero1.a13e15c7.gif"
+                  src={g4}
                   alt=" "
                 />
                 <h4>@Mike Dene</h4>

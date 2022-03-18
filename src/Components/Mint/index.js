@@ -1,6 +1,12 @@
 import React, { useState } from "react";
 import Grid from "@material-ui/core/Grid";
 import "./style.css";
+import img_r from "../../Assets/Images/img_r.png"
+import g1 from "../../Assets/Images/g1.gif"
+import g2 from "../../Assets/Images/g2.gif"
+import g3 from "../../Assets/Images/g3.gif"
+import g4 from "../../Assets/Images/g4.gif"
+
 const Mint = () => {
   const [num, setnum] = useState(0);
   const decNum = () => {
@@ -46,48 +52,48 @@ const Mint = () => {
           <div className="right">
             <img
               className="imgee"
-              src="http://nigeria.alshumaal.com/static/media/astro.4fbb9c5f.png"
+              src={img_r}
               alt=" "
             />
           </div>
         </div>
         <div className="third">
-          <Grid container>
-            <Grid item md={3} sm={3} xs={12}>
+          <Grid container dispaly="flex" justifyContent="center" alignItems="center">
+            <Grid item md={3} sm={3} xs={12} style={{display:"flex" , justifyContent:"center"}}>
               <div className="card">
                 <img
                   className="imge"
-                  src="http://nigeria.alshumaal.com/static/media/hero1.a13e15c7.gif"
+                  src={g1}
                   alt=" "
                 />
                 <h4>@Mike Dene</h4>
               </div>
             </Grid>
-            <Grid item md={3} sm={3} xs={12}>
+            <Grid item md={3} sm={3} xs={12} style={{display:"flex" , justifyContent:"center"}}>
               <div className="card">
                 <img
                   className="imge"
-                  src="http://nigeria.alshumaal.com/static/media/hero4.dc80de94.gif"
+                  src= {g2}
                   alt=" "
                 />
                 <h4>@Mike Dene</h4>
               </div>
             </Grid>
-            <Grid item md={3} sm={3} xs={12}>
+            <Grid item md={3} sm={3} xs={12} style={{display:"flex" , justifyContent:"center"}}>
               <div className="card">
                 <img
                   className="imge"
-                  src="http://nigeria.alshumaal.com/static/media/hero2.dd351f01.gif"
+                  src={g3}
                   alt=" "
                 />
                 <h4>@Mike Dene</h4>
               </div>
             </Grid>
-            <Grid item md={3} sm={3} xs={12}>
+            <Grid item md={3} sm={3} xs={12} style={{display:"flex" , justifyContent:"center"}}>
               <div className="card">
                 <img
                   className="imge"
-                  src="http://nigeria.alshumaal.com/static/media/hero1.a13e15c7.gif"
+                  src={g4}
                   alt=" "
                 />
                 <h4>@Mike Dene</h4>

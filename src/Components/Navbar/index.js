@@ -2,17 +2,18 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Grid from "@material-ui/core/Grid";
 import MenuRoundedIcon from "@material-ui/icons/MenuRounded";
+import logo from "../../Assets/Images/logo.png"
 import "./index.css";
 const Navbar = () => {
   const [showIcons, setShowIcons] = useState(false);
   return (
     <>
-      <Grid container className="nav">
+      <Grid container className="nav" display="flex" justifyContent="space-evenly">
         <div>
           {" "}
           <Grid item md={5} sm={6} xs={8} className="logo">
             <img
-              src="http://nigeria.alshumaal.com/static/media/logo.14c52e78.png"
+              src={logo}
               alt=" "
               className="datusing"
             />

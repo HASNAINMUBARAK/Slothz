@@ -1,5 +1,4 @@
 import React from "react";
-import TwitterIcon from "@material-ui/icons/Twitter";
 import "./style.css";
 const Footer = () => {
   return (
@@ -10,7 +9,7 @@ const Footer = () => {
           <h4>Made with love by the SLOTHz team!</h4>
         </div>
         <div className="b">
-          {/* <TwitterIcon/> */}
+          
           <i
             class="fab fa-twitter-square"
             style={{ color: "pink" }}

@@ -1,6 +1,10 @@
 import React from "react";
 import Grid from "@material-ui/core/Grid";
 import "./style.css";
+import g1 from "../../Assets/Images/g1.gif"
+import g2 from "../../Assets/Images/g2.gif"
+import g3 from "../../Assets/Images/g3.gif"
+import g4 from "../../Assets/Images/g4.gif"
 const Slothz = () => {
   return (
     <>
@@ -12,32 +16,32 @@ const Slothz = () => {
         </div>
 
         <div className="second">
-          <Grid container>
-            <Grid item md={3} sm={3} xs={12}>
+          <Grid container  >
+            <Grid item md={3} sm={3} xs={12} >
               <img
                 className="imge"
-                src="http://nigeria.alshumaal.com/static/media/hero1.a13e15c7.gif"
+                src= {g1}
                 alt=" "
               />
             </Grid>
             <Grid item md={3} sm={3} xs={12}>
               <img
                 className="imge"
-                src="http://nigeria.alshumaal.com/static/media/hero4.dc80de94.gif"
+                src={g2}
                 alt=" "
               />
             </Grid>
             <Grid item md={3} sm={3} xs={12}>
               <img
                 className="imge"
-                src="http://nigeria.alshumaal.com/static/media/hero2.dd351f01.gif"
+                src={g3}
                 alt=" "
               />
             </Grid>
             <Grid item md={3} sm={3} xs={12}>
               <img
                 className="imge"
-                src="http://nigeria.alshumaal.com/static/media/hero1.a13e15c7.gif"
+                src={g4}
                 alt=" "
               />
             </Grid>
