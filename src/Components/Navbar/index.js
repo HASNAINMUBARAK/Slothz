@@ -28,7 +28,7 @@ const Navbar = () => {
         </Grid>
         <Grid item md={4} sm={4} xs={6} className="anchor">
           <div className={showIcons ? "mobile-link-menu" : "link-menu"}>
-            <ul>
+            <ul style={{display:"flex", justifyContent:"space-between"}}>
               <li>
                 <Link to="/">Home</Link>
               </li>
